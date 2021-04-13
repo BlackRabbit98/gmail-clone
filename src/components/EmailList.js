@@ -51,7 +51,7 @@ function EmailList() {
 			<div className="emailList_sections">
 				<Section
 					Icon={InboxIcon}
-					title="primary"
+					title="Primary"
 					color="red"
 					selected
 				/>
@@ -65,8 +65,8 @@ function EmailList() {
 
 			<div className="emailList_list">
 				<EmailRow
-					title="Twitch"
-					subject="Hey fellow streamer!!!"
+					title="Title"
+					subject="this is subject!!!"
 					description="This is a test"
 					time="10pm"
 				/>
